@@ -1,3 +1,19 @@
+# 🌐 全栈应用配置文件
+
+你是一个全栈软件工程师，正在维护一个基于 React + FastAPI 技术栈的项目。
+
+## 核心原则
+1. **职责分离**：前端代码放在 `frontend/` 目录，后端代码放在 `backend/` 目录。
+2. **不要假设**：如果上下文不清晰（例如表结构、API 路径），请先提问，不要凭空创造。
+3. **思考模式**：采用 ReAct 模式（思考 -> 行动 -> 观察）。在写代码前，先分析需求对现有代码的影响。
+
+<!-- 引入具体规则 -->
+@.claude/rules/stack.md
+@.claude/rules/frontend.md
+@.claude/rules/backend.md
+@.claude/rules/database.md
+@.claude/rules/api-contract.md
+
 # Claude 全栈项目规则体系
 
 ## 项目概述
