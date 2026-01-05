@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python temp_query.py:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss init -p)",
+      "Bash(node node_modules/tailwindcss/lib/cli.js:*)",
+      "Bash(npm run build:*)",
+      "Bash(for file in InventoryPage.tsx AlertsPage.tsx ReportsPage.tsx LogsPage.tsx UsersPage.tsx SettingsPage.tsx)",
+      "Bash(do sed -i \"s/import React from ''react'';//g\" \"$file\")",
+      "Bash(done)",
+      "Bash(npm run dev:*)",
+      "Bash(curl:*)",
+      "Bash(python:*)"
+    ]
+  }
+}
